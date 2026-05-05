@@ -1,9 +1,5 @@
 package vn.edu.iuh.fit.common.dto;
 
-import java.io.Serial;
-import java.io.Serializable;
-import java.time.LocalDateTime;
-
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,11 +7,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import vn.edu.iuh.fit.common.constant.TicketType;
 
+import java.io.Serial;
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class InvoiceLineItemDTO implements Serializable {
+
     @Serial
     private static final long serialVersionUID = 1L;
 
@@ -39,6 +40,6 @@ public class InvoiceLineItemDTO implements Serializable {
     private double insurance;
     private double finalAmount;
     private boolean isReturned;
-    private Double refundAmount;
+    private double refundAmount;
     private OriginalTicketInfoDTO originalTicketInfo;
 }

@@ -68,5 +68,4 @@ public enum ActionType {
 
     FILTER_INVOICES,
     GET_INVOICE_DETAIL_BY_ID
-
 }
