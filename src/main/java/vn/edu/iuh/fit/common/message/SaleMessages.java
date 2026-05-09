@@ -21,6 +21,7 @@ public final class SaleMessages {
   public static final String SEAT_HELD_BY_OTHER = "Ghế đang được giao dịch bởi quầy khác";
   public static final String PRICE_NOT_CONFIGURED = "Giá ghế chưa được cấu hình";
   public static final String CUSTOMER_DOCUMENT_REQUIRED = "Cần CCCD/CMND hoặc hộ chiếu";
+  public static final String EMPLOYEE_REQUIRED = "Không xác định được nhân viên xử lý giao dịch";
   public static final String PAYMENT_NOT_READY = "Chưa đủ điều kiện thanh toán";
   public static final String PAYMENT_CASH_ONLY = "Chỉ hỗ trợ thanh toán tiền mặt";
 

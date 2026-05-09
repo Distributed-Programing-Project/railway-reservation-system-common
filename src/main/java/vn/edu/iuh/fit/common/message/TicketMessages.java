@@ -23,6 +23,8 @@ public final class TicketMessages {
     public static final String EXCHANGE_SEARCH_FAILED_PREFIX = "Lỗi khi tìm kiếm vé đổi: ";
     public static final String EXCHANGE_PREVIEW_SUCCESS = "Tính phí đổi vé thành công";
     public static final String EXCHANGE_PREVIEW_FAILED_PREFIX = "Lỗi khi xem trước phí đổi vé: ";
+    public static final String EXCHANGE_ROUTE_MISMATCH = "Chỉ được đổi vé cùng ga đi và ga đến.";
+    public static final String EXCHANGE_ROUTE_DATA_MISSING = "Không đủ dữ liệu tuyến/ga đi/ga đến để đổi vé.";
     
     public static final String TICKET_NOT_FOUND = "Không tìm thấy vé: id=%s";
     public static final String CREATE_FAILED = "Lỗi hệ thống: Không thể tạo vé mới.";

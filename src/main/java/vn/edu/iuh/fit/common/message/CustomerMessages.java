@@ -11,6 +11,7 @@ public final class CustomerMessages {
     public static final String CUSTOMER_NOT_FOUND = "Không tìm thấy khách hàng: id=%s";
     public static final String CUSTOMER_INACTIVE = "Không thể cập nhật khách hàng đã bị vô hiệu hóa: id=%s";
     public static final String ID_CARD_DUPLICATE = "Số CCCD này đã được đăng ký. Vui lòng kiểm tra lại";
+    public static final String PASSPORT_DUPLICATE = "Số hộ chiếu này đã được đăng ký. Vui lòng kiểm tra lại";
     public static final String EMAIL_DUPLICATE = "Email này đã được đăng ký. Vui lòng kiểm tra lại";
     public static final String REQUEST_EMPLOYEE_REQUIRED = "Không tìm thấy nhân viên: id=%s";
     public static final String REQUEST_EMPLOYEE_INACTIVE = "Nhân viên yêu cầu đã bị vô hiệu hóa: id=%s";
